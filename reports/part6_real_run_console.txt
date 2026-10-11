@@ -1,0 +1,28 @@
+SentinelAI - Part 6: advanced model comparison & optimization
+scoring=f1 cv=5-fold random_state=42
+Training samples: 662486 | Test samples: 165622 | Features: 70
+XGBoost scale_pos_weight: 72.0817
+
+[1/5] Training and evaluating baselines ...
+  logistic_regression: f1=0.4487 recall=0.9921
+  random_forest: f1=0.9962 recall=0.9934
+  xgboost: f1=0.9985 recall=0.9987
+
+[2/5] Hyperparameter optimization (training set only) ...
+F:\vs 1\SentinelAI\.venv\Lib\site-packages\sklearn\svm\_base.py:1295: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+  logistic_regression: best_cv_f1=0.8676 (9055.3s)
+  random_forest: best_cv_f1=0.9975 (4776.3s)
+  xgboost: best_cv_f1=0.9989 (403.7s)
+
+[3/5] Final evaluation on the untouched test set ...
+  logistic_regression: accuracy=0.9967 f1=0.8688 recall=0.7908 fpr=0.0004
+  random_forest: accuracy=0.9999 f1=0.9967 recall=0.9951 fpr=0.0000
+  xgboost: accuracy=1.0000 f1=0.9982 recall=0.9987 fpr=0.0000
+
+[4/5] Comparison reports and figures ...
+
+[5/5] Saving optimized models and research report ...
+
+Best model on the stated criterion: xgboost (highest attack F1 on the test set, with attack recall and then false-positive rate as tie-breakers).
+All results, reports and figures are under reports/; models under models/.

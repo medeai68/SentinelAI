@@ -1,0 +1,10 @@
+Input note: Dropped unexpected column(s): ['Bwd_PSH_Flags', 'Bwd_URG_Flags', 'Fwd_Avg_Bytes/Bulk', 'Fwd_Avg_Packets/Bulk', 'Fwd_Avg_Bulk_Rate', 'Bwd_Avg_Bytes/Bulk', 'Bwd_Avg_Packets/Bulk', 'Bwd_Avg_Bulk_Rate']
+Input note: Replaced infinite values with NaN in 2 column(s) — imputed by the fitted Part 4 preprocessing artifact.
+Input note: NaN values present in 7 row(s) — imputed by the fitted Part 4 preprocessing artifact (no arbitrary fill values).
+Detection + response finished: 4996 flow(s)
+  no_action=4923 alerts=0 dry_run_blocks=73 block_requests=0 skipped=0 failed=0
+  response mode: DRY_RUN (no real firewall/network change)
+  vs actual labels: 4996/4996 predictions match the dataset labels
+Results saved to: F:\vs 1\SentinelAI\reports\detection_sample.csv
+Stored 4996 detection+response record(s) in: F:\vs 1\SentinelAI\database\sentinelai.db
+  database response statistics: {'total_detections': 4996, 'no_action_count': 4923, 'alert_count': 0, 'dry_run_block_count': 73, 'block_requested_count': 0, 'failed_response_count': 0}

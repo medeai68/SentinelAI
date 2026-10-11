@@ -1,0 +1,25 @@
+{
+  "model_name": "random_forest_optimized",
+  "dataset": "CIC-IDS2017 development subset (processed by Part 4 pipeline)",
+  "target": "binary_label (BENIGN=0, ATTACK=1)",
+  "random_state": 42,
+  "parameters": {
+    "n_estimators": 200,
+    "min_samples_split": 5,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt",
+    "max_depth": 30,
+    "class_weight": "balanced"
+  },
+  "baseline_parameters": {
+    "n_estimators": 200,
+    "class_weight": "balanced_subsample"
+  },
+  "feature_count": 70,
+  "training_samples": 662486,
+  "cv_strategy": "StratifiedKFold(n_splits=5, shuffle=True, random_state=42)",
+  "optimization_metric": "f1",
+  "best_cv_score": 0.9975127267303154,
+  "created": "2026-10-07T11:35:26",
+  "note": "Tuned on the training set only; test set used only for final evaluation."
+}

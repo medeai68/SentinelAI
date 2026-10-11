@@ -1,0 +1,15 @@
+{
+  "binary": {
+    "BENIGN": 0,
+    "ATTACK": 1
+  },
+  "multiclass": {
+    "BENIGN": 0,
+    "FTP-Patator": 1,
+    "Infiltration": 2,
+    "SSH-Patator": 3,
+    "Web Attack - Brute Force": 4,
+    "Web Attack - Sql Injection": 5,
+    "Web Attack - XSS": 6
+  }
+}

@@ -1,0 +1,8 @@
+SentinelAI - binary baseline training (Part 5)
+random_state=42 | reuses the Part 4 train/test split
+Training samples: 662486 | Test samples: 165622
+Features: 70
+Training class distribution (0=BENIGN, 1=ATTACK): {0: 653421, 1: 9065}
+Saved: F:\vs 1\SentinelAI\models\logistic_regression.joblib
+Saved: F:\vs 1\SentinelAI\models\random_forest.joblib
+Next: python -m src.evaluation.evaluate_binary

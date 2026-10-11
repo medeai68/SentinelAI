@@ -1,0 +1,53 @@
+SentinelAI preprocessing pipeline (Part 4)
+random_state=42, test_size=0.2
+Reports written to: reports/
+  F:\vs 1\SentinelAI\reports\figures\class_distribution_raw.png
+  F:\vs 1\SentinelAI\reports\figures\class_distribution_train.png
+  F:\vs 1\SentinelAI\reports\figures\class_distribution_test.png
+  F:\vs 1\SentinelAI\reports\figures\numeric_feature_distributions.png
+
+Summary:
+{
+  "source_files": [
+    "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+    "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+    "Tuesday-WorkingHours.pcap_ISCX.csv"
+  ],
+  "raw_records": 904877,
+  "raw_features": 79,
+  "label_column": "Label",
+  "random_state": 42,
+  "test_fraction": 0.2,
+  "duplicates_removed": 76769,
+  "infinite_replaced_with_nan": 841,
+  "records_after_cleaning": 828108,
+  "stratification": "multiclass",
+  "train_size": 662486,
+  "test_size": 165622,
+  "numeric_features": 70,
+  "categorical_features": 0,
+  "final_features": 70,
+  "validation_problems": [],
+  "binary_mapping": {
+    "BENIGN": 0,
+    "ATTACK": 1
+  },
+  "multiclass_mapping": {
+    "BENIGN": 0,
+    "FTP-Patator": 1,
+    "Infiltration": 2,
+    "SSH-Patator": 3,
+    "Web Attack - Brute Force": 4,
+    "Web Attack - Sql Injection": 5,
+    "Web Attack - XSS": 6
+  },
+  "artifacts": {
+    "train": "F:\\vs 1\\SentinelAI\\data\\processed\\train.csv",
+    "test": "F:\\vs 1\\SentinelAI\\data\\processed\\test.csv",
+    "preprocessor": "F:\\vs 1\\SentinelAI\\models\\preprocessing\\preprocessor.joblib",
+    "label_encoder": "F:\\vs 1\\SentinelAI\\models\\preprocessing\\label_encoder.joblib",
+    "label_mapping": "F:\\vs 1\\SentinelAI\\reports\\label_mapping.json"
+  }
+}
+
+Preprocessing finished — processed data is ML-ready.

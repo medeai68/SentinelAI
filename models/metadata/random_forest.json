@@ -1,0 +1,15 @@
+{
+  "model_name": "random_forest",
+  "dataset": "CIC-IDS2017 development subset (processed by Part 4 pipeline)",
+  "target": "binary_label (BENIGN=0, ATTACK=1)",
+  "random_state": 42,
+  "parameters": {
+    "n_estimators": 200,
+    "class_weight": "balanced_subsample"
+  },
+  "class_weight": "balanced_subsample",
+  "feature_count": 70,
+  "training_samples": 662486,
+  "created": "2026-10-07T06:54:43",
+  "note": "Test set was not used during training."
+}

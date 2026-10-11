@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "unit: focused tests of one component (the default category for tests/ files)",
+    "integration: tests exercising the full offline pipeline across components (tests/integration/)",
+    "validation: programmatic security and portability checks (tests/validation/)",
+]

@@ -1,0 +1,25 @@
+# ============================================================
+#  SentinelAI — Python package dependencies
+# ============================================================
+#
+#  Current phase: Parts 1-6 code complete - foundation, dataset
+#  tooling, preprocessing, ML baselines (Part 5) and the model
+#  comparison / optimization framework (Part 6).
+#
+#  Advanced packages (Streamlit, Scapy, FastAPI, SHAP, ...) will be
+#  added in later phases when they are actually needed.
+#
+#  Install inside the activated virtual environment:
+#      pip install -r requirements.txt
+
+pandas
+numpy
+scikit-learn
+joblib
+python-dotenv
+matplotlib
+pytest
+pytest-cov
+xgboost
+streamlit
+scapy

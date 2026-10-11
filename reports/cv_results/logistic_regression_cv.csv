@@ -1,0 +1,11 @@
+model,params,mean_test_score,std_test_score,rank_test_score
+logistic_regression,"{'solver': 'liblinear', 'class_weight': 'balanced', 'C': 0.01}",0.2995719405359443,0.00113743993854542,9
+logistic_regression,"{'solver': 'lbfgs', 'class_weight': 'balanced', 'C': 0.01}",0.3200870444478239,0.0027133231204694553,8
+logistic_regression,"{'solver': 'lbfgs', 'class_weight': 'balanced', 'C': 0.1}",0.3759795974814094,0.004485549490844016,7
+logistic_regression,"{'solver': 'liblinear', 'class_weight': None, 'C': 10.0}",0.867602739036107,0.004368593828901377,1
+logistic_regression,"{'solver': 'lbfgs', 'class_weight': 'balanced', 'C': 10.0}",0.4919368789086106,0.015534441455814051,4
+logistic_regression,"{'solver': 'lbfgs', 'class_weight': None, 'C': 1.0}",0.8587849691926255,0.0038406897657535907,3
+logistic_regression,"{'solver': 'liblinear', 'class_weight': 'balanced', 'C': 1.0}",0.4512336414015775,0.0030050338598329664,5
+logistic_regression,"{'solver': 'lbfgs', 'class_weight': 'balanced', 'C': 1.0}",0.4500548028146712,0.004132194778926782,6
+logistic_regression,"{'solver': 'liblinear', 'class_weight': None, 'C': 0.01}",0.13214909270008124,0.0748113534795957,10
+logistic_regression,"{'solver': 'lbfgs', 'class_weight': None, 'C': 10.0}",0.8629160725388397,0.004484733136142982,2

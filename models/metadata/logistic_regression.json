@@ -1,0 +1,15 @@
+{
+  "model_name": "logistic_regression",
+  "dataset": "CIC-IDS2017 development subset (processed by Part 4 pipeline)",
+  "target": "binary_label (BENIGN=0, ATTACK=1)",
+  "random_state": 42,
+  "parameters": {
+    "max_iter": 2000,
+    "class_weight": "balanced"
+  },
+  "class_weight": "balanced",
+  "feature_count": 70,
+  "training_samples": 662486,
+  "created": "2026-10-07T06:54:43",
+  "note": "Test set was not used during training."
+}

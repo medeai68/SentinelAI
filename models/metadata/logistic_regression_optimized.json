@@ -1,0 +1,22 @@
+{
+  "model_name": "logistic_regression_optimized",
+  "dataset": "CIC-IDS2017 development subset (processed by Part 4 pipeline)",
+  "target": "binary_label (BENIGN=0, ATTACK=1)",
+  "random_state": 42,
+  "parameters": {
+    "solver": "liblinear",
+    "class_weight": null,
+    "C": 10.0
+  },
+  "baseline_parameters": {
+    "max_iter": 2000,
+    "class_weight": "balanced"
+  },
+  "feature_count": 70,
+  "training_samples": 662486,
+  "cv_strategy": "StratifiedKFold(n_splits=5, shuffle=True, random_state=42)",
+  "optimization_metric": "f1",
+  "best_cv_score": 0.867602739036107,
+  "created": "2026-10-07T11:35:24",
+  "note": "Tuned on the training set only; test set used only for final evaluation."
+}

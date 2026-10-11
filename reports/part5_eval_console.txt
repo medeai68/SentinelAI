@@ -1,0 +1,6 @@
+SentinelAI - binary model evaluation (Part 5)
+
+Evaluation finished. Results:
+  logistic_regression: accuracy=0.9666 precision=0.2899 recall=0.9921 f1=0.4487 roc_auc=0.9972 tp=2248 tn=157850 fp=5506 fn=18
+  random_forest: accuracy=0.9999 precision=0.9991 recall=0.9934 f1=0.9962 roc_auc=0.9998 tp=2251 tn=163354 fp=2 fn=15
+All reports and figures are under reports/.

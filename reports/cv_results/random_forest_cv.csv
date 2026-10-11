@@ -1,0 +1,11 @@
+model,params,mean_test_score,std_test_score,rank_test_score
+random_forest,"{'n_estimators': 100, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'log2', 'max_depth': 10, 'class_weight': 'balanced'}",0.9579911497458319,0.03590251319735075,9
+random_forest,"{'n_estimators': 200, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': 10, 'class_weight': 'balanced_subsample'}",0.9759619375089752,0.010043307439833813,8
+random_forest,"{'n_estimators': 200, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 30, 'class_weight': 'balanced'}",0.9975127267303154,0.0007221593877299582,1
+random_forest,"{'n_estimators': 400, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'log2', 'max_depth': 10, 'class_weight': 'balanced_subsample'}",0.9528568397884275,0.012573636615170273,10
+random_forest,"{'n_estimators': 400, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': None, 'class_weight': 'balanced_subsample'}",0.996734443132652,0.0008119739334615117,7
+random_forest,"{'n_estimators': 100, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'max_depth': 30, 'class_weight': 'balanced_subsample'}",0.9969019805562424,0.0005379454979651994,6
+random_forest,"{'n_estimators': 100, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': None, 'class_weight': 'balanced'}",0.9971254508972537,0.0008142408386950378,5
+random_forest,"{'n_estimators': 100, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'log2', 'max_depth': None, 'class_weight': 'balanced'}",0.9971263682938376,0.0006458328214618523,4
+random_forest,"{'n_estimators': 200, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': None, 'class_weight': 'balanced'}",0.9971805310041717,0.0007315808826031575,3
+random_forest,"{'n_estimators': 100, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'max_depth': None, 'class_weight': 'balanced'}",0.9974030843717644,0.0006216750874754595,2

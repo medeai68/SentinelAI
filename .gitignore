@@ -1,0 +1,46 @@
+# ============================================================
+#  SentinelAI — Git ignore rules
+# ============================================================
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+
+# --- Test/coverage artifacts ---
+.pytest_cache/
+.coverage
+
+# --- Virtual environment ---
+.venv/
+
+# --- Environment variables (real secrets stay local) ---
+.env
+
+# --- Logs ---
+logs/
+
+# --- Local SQLite database (real records stay out of Git) ---
+database/*.db
+database/*.db-journal
+database/*.db-wal
+database/*.db-shm
+
+# --- Datasets (large raw/processed data stays out of Git) ---
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# --- Trained models & preprocessing artifacts ---
+models/**/*.pkl
+models/**/*.joblib
+
+# --- Jupyter notebooks ---
+.ipynb_checkpoints/
+
+# --- OS / editor files ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
